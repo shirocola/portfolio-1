@@ -33,13 +33,6 @@ body {
     margin: 0 auto;
 }
 
-h1 {
-    font-size: 90pt;
-    text-align: center;
-    padding: 20;
-    background-color: lightseagreen;
-}
-
 p {
     text-align: center;
     font-size: 50pt;
@@ -61,11 +54,21 @@ h3 {
 .content {
     display: flexbox;
     background-color: white;
-    padding: 8px;
-    border: 1px solid gray;
-    width: 1600px;
+
+
+}
+
+ /* styling body */
+ .container {
     margin: 0 auto;
-    justify-content: space-around;
-    flex-direction: row;
+}
+
+.container h1 {
+    color: black;
+    text-align: center;
+    border: 3px salmon;
+    display: flexbox;
+    background-color: lightgreen;
+    font-size: 90pt;
 
 }
