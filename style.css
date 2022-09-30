@@ -4,7 +4,7 @@
 }
 
 #footer li {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
     list-style: none;
@@ -13,13 +13,16 @@
     float: right;
 }
 
+#footer li a {
+    color: black;
+}
+
 /* padding for whole body */
 body {
     padding: 150px;
-    background-color: beige;
+    background-color: white;
     align-items: center;
     display: block;
-
 }
 
 .image img {
@@ -34,9 +37,11 @@ body {
     margin: 0 auto;
 }
 
-p {
+.content p {
     text-align: start;
     font-size: 50pt;
+    display: flexbox;
+    background-color: blanchedalmond;
 }
 
 h2 {
@@ -54,7 +59,9 @@ h3 {
 /* content decoration */
 .content {
     display: flexbox;
-    background-color: white;
+    background-color: lightyellow;
+    border: px black;
+    border-radius: 0.5em;
 
 
 }
@@ -72,4 +79,10 @@ h3 {
     background-color: lightgreen;
     font-size: 90pt;
 
+}
+
+.inner p {
+    text-align: start;
+    font-size: 50pt;
+    text-align: center;
 }
