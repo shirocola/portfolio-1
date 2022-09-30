@@ -53,3 +53,12 @@ h3 {
     text-align: center;
     font-size: 40pt;
 }
+
+/* content decoration */
+.content {
+    display: flexbox;
+    background-color: white;
+    padding: 8px;
+    border: 1px solid gray;
+
+}
