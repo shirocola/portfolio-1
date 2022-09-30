@@ -1,60 +1,135 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport"
-	content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
-	<link
-	href="https://fonts.googleapis.com/css2?
-	family=Ubuntu+Mono&display=swap"
-	rel="stylesheet">	
+	<title>
+		Create a Portfolio Gallery
+		using HTML and CSS
+	</title>
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-	<header>
-		<h1 id="top">Online</h1>
-		<h1 id="top1">FoodShop</h1>
-	</header>
-	<hr>
-	<nav id="navbar">
-		<img src="5.jpeg">
-		<ul id="navcontent">
-			<li><a href="#">Home</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Menu</a></li>
-			<li><a href="contact.html">ContactUs</a></li>
-		</ul>
-	</nav>
-	<div id="container1">
-		<div id="row1">
-			Welcome to Online FoodShop
-		</div>
-		<button class="btn">ORDER NOW</button>
-		<div id="container3">
-			<div id="row2">
-				<button class="btn">Prices</button>
+
+	<!-- title and tag -->
+	<div class="container">
+		<h1>Kitpivat Piromgit</h1>
+		<h3>Fullstack Sofeware Engineer</h3>
+		<hr>
+
+		<!-- Main -->
+		<div id="main">
+			<div class="inner">
+				<h1>About Me</h1>
+				<span class="image"><img src="image\me.jpg" alt="" /></span>
+				<p>From Environmental Scientist to Software engineer intern located in Thailand. </p><br>
+				<p>Self learning, Teamwork, Communication. The kop, Cat person, Anime lover</p><br>
+				<p>Interested in Technology because it makes life easier.</p>
 			</div>
-			<div id="row3">
-				<button class="btn">Specials</button>
+		</div>
+
+		<!-- Content of the body-->
+		<h2>Portfolio</h2>
+		<div class="row">
+			<div class="column">
+				<div class="content">
+					<img src="image\transfer.png" alt="" style="width:100%">
+					<h3>
+						<a href="#">Football Summer Transfer 2022</a>
+					</h3>
+
+					<p>
+						HTML stands for Hyper Text Markup
+						Language. It is used to design web
+						pages using markup language. HTML
+						is the combination of Hypertext and
+						Markup language. Hypertext defines
+						the link between the web pages.
+					</p>
+
+
+
+
+				</div>
+			</div>
+
+			<div class="column">
+				<div class="content">
+					<img src="image\water.jpg" alt="" style="width:100%">
+					<h3>
+						<a href="#">Water Quality Prediction</a>
+					</h3>
+
+
+					<p>
+						Cascading Style Sheets, fondly referred
+						to as CSS, is a simply designed language
+						intended to simplify the process of
+						making web pages presentable. CSS allows
+						you to apply styles to web pages.
+					</p>
+
+
+
+
+				</div>
+			</div>
+
+			<div class="column">
+				<div class="content">
+					<img src="image\book.png" alt="" style="width:100%">
+					<h3>
+						<a href="#">Book Recommendation</a>
+					</h3>
+
+
+					<p>
+						The term PHP is an acronym for PHP:
+						Hypertext Preprocessor. PHP is a
+						server-side scripting language
+						designed specifically for web
+						development. PHP can be easily
+						embedded in HTML files.
+					</p>
+
+
+
+
+				</div>
+			</div>
+
+			<div class="column">
+				<div class="content">
+					<img src="image\pizza.jpg" alt="" style="width:100%">
+					<h3>
+						<a href="#">Pizza Restaurant</a>
+					</h3>
+
+
+					<p>
+						Javascript was developed by Brendan
+						Eich in 1995. At first, it was called
+						LiveScript but was later name to
+						JavaScript. JavaScript is the muscle
+						of the structure
+					</p>
+
+				</div>
 			</div>
 		</div>
 	</div>
-	<hr>
-	<h1 id="top3">Featured Products</h1>
-	<div id="container4">
-		<div id="row4">
-			<button class="btn">ORDER NOW</button>
-		</div>
-		<div id="row5">
-			<button class="btn">ORDER NOW</button>
-		</div>
-		<div id="row6">
-			<button class="btn">ORDER NOW</button>
-		</div>
+	<div>
+
+		
+		<footer id="footer">
+			<li><a href="https://github.com/shirocola"><i class="fa-brands fa-square-github fa-3x"></a></i>
+			<li><a href="mailto:Kitpivatpiromgit@gmail.com"><i class="fa-solid fa-envelope fa-3x"></a></i>
+			<li><a href="#"><i class="fa-brands fa-linkedin fa-3x"></a></i>
+		</footer>
 	</div>
-	<footer>Copyright © 2020-2021 OnlineFoodShop.
-		All Rights are reserved</footer>
 </body>
+
 </html>
