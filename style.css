@@ -1,7 +1,11 @@
     /* wildcard styling */
-    * {
+    * :fullscreen {
         box-sizing: border-box;
         margin: 0 auto;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        vertical-align: baseline;
 
     }
 
@@ -10,6 +14,8 @@
         padding: 15px;
         background-image: url("https://codific.com/wp-content/uploads/2019/04/Software-engineer-post.jpg");
         background-repeat: no-repeat;
+        align-items: center;
+        display: block;
     }
 
     /* styling body */
