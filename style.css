@@ -15,10 +15,11 @@
 
 /* padding for whole body */
 body {
-    padding: 15px;
+    padding: 150px;
     background-color: beige;
     align-items: center;
     display: block;
+
 }
 
 .image img {
@@ -34,7 +35,7 @@ body {
 }
 
 p {
-    text-align: center;
+    text-align: start;
     font-size: 50pt;
 }
 
