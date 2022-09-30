@@ -12,8 +12,7 @@
     /* padding for whole body */
     body {
         padding: 15px;
-        background-image: url("https://codific.com/wp-content/uploads/2019/04/Software-engineer-post.jpg");
-        background-repeat: no-repeat;
+        background-color: beige;
         align-items: center;
         display: block;
     }
@@ -149,9 +148,4 @@
         text-align: center;
         color: black;
 
-    }
-
-    /* Desktops and laptops ----------- */
-    @media only screen and (min-width : 1224px) {
-        /* Styles */
     }
