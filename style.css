@@ -15,3 +15,8 @@ body {
     align-items: center;
     display: block;
 }
+
+img{
+    display: block;
+    align-items: center;
+}
